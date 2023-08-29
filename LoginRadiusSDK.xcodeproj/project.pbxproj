@@ -127,7 +127,6 @@
 		6809CDB81E49BE5F004017BB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6884DF381CC9FC8A0071EFFB /* LoginRadiusSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginRadiusSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6896D6F51D2E6C4800937820 /* LoginRadiusSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LoginRadiusSDK.podspec; sourceTree = "<group>"; };
-		C0CB627B2A9C772200E9026D /* LoginRadiusPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LoginRadiusPackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,7 +272,6 @@
 		6884DF2E1CC9FC8A0071EFFB = {
 			isa = PBXGroup;
 			children = (
-				C0CB627B2A9C772200E9026D /* LoginRadiusPackage */,
 				1E1E385A246333AA00D7B615 /* Sources */,
 				6896D6F51D2E6C4800937820 /* LoginRadiusSDK.podspec */,
 				6809CDB81E49BE5F004017BB /* Info.plist */,
@@ -346,6 +344,8 @@
 			dependencies = (
 			);
 			name = LoginRadiusSDK;
+			packageProductDependencies = (
+			);
 			productName = LRSDK;
 			productReference = 6884DF381CC9FC8A0071EFFB /* LoginRadiusSDK.framework */;
 			productType = "com.apple.product-type.framework";
