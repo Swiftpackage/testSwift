@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Eureka (5.4.0)
+  - FBAEMKit (14.1.0):
+    - FBSDKCoreKit_Basics (= 14.1.0)
+  - FBSDKCoreKit (14.1.0):
+    - FBAEMKit (= 14.1.0)
+    - FBSDKCoreKit_Basics (= 14.1.0)
+  - FBSDKCoreKit_Basics (14.1.0)
+  - FBSDKLoginKit (14.1.0):
+    - FBSDKCoreKit (= 14.1.0)
+  - LoginRadiusSDK (5.8.0):
+    - FBSDKLoginKit (~> 14.1.0)
+    - SimpleKeychain (~> 0.7.0)
+  - SimpleKeychain (0.7.0)
+  - SwiftyJSON (4.0.0)
+  - XLForm (3.3.0)
+
+DEPENDENCIES:
+  - Alamofire (<= 4.8.2)
+  - Eureka
+  - LoginRadiusSDK (from `./`)
+  - SwiftyJSON (<= 4.0)
+  - XLForm (<= 3.3.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Eureka
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - SimpleKeychain
+    - SwiftyJSON
+    - XLForm
+
+EXTERNAL SOURCES:
+  LoginRadiusSDK:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Eureka: fadaa9fa3d6e402d3c60f78f24edf3d7bafc9c29
+  FBAEMKit: a899515e45476027f73aef377b5cffadcd56ca3a
+  FBSDKCoreKit: 24f8bc8d3b5b2a8c5c656a1329492a12e8efa792
+  FBSDKCoreKit_Basics: 6e578c9bdc7aa1365dbbbde633c9ebb536bcaa98
+  FBSDKLoginKit: 787de205d524c3a4b17d527916f1d066e4361660
+  LoginRadiusSDK: e55020a9997ec814e58630e193677740417730f9
+  SimpleKeychain: b50cef3b87939d480ea1143425c00f5b4b70fe21
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  XLForm: d5c391dfc62865927b5bcab0a5a0dbfb3e02b0ec
+
+PODFILE CHECKSUM: 253cadb4df2230a8ed5cf95848749c19d06ec57b
+
+COCOAPODS: 1.12.0
